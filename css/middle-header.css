@@ -1,0 +1,102 @@
+.middle-header {
+   display: flex;
+   grid-template-columns: 100px 100px 100px ;
+   height: 90px;
+   width: 1000px;
+   margin-left: 60px;
+    
+   justify-content: space-between;
+   border-bottom-width: 1px;
+   border-bottom-color: rgb(231, 230, 230);
+   border-bottom-style: solid;
+
+}
+.discount-voucher-text,.fresh-healthy,.home-delivery {
+    font-weight:bold ;
+    font-size: 16px;
+ }
+ .discount-icon,.fresh-icon,.home-icon {
+    height: 51.5px;
+    margin-right: 10px;
+    transition: 0.15;} 
+   
+
+
+
+.first-section {
+    display: flex;
+   margin-left: 0px;
+    
+     
+} 
+.discount-icon:hover {
+   opacity: .8;
+}
+
+ 
+.welcome {
+    margin-top: 3px;
+    width: 200px;
+    font-size:13px ;
+    color: rgb(99, 94, 94);
+}
+.middle-section {
+    
+    display: flex;
+}
+
+.fresh-icon:hover{
+    opacity: 0.8;
+}
+
+
+
+.end-section {
+    display: flex;
+    
+}
+.home-icon:hover {
+    opacity: 0.8;
+}
+.our-menu {
+    display: flex;
+    margin-top: 8px;
+    height: 50px;
+    align-items: center;
+
+}
+.menu-button {
+   margin-left: 512px;
+   font-size: 14px;
+   background-color: rgb(51, 203, 51);
+   color: white;
+   border: none;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 10px;
+   padding-right: 10px;
+   cursor: pointer;
+   transition: 0.15s;
+   
+}
+.menu-button:hover {
+    background-color: rgb(34, 181, 34);
+}
+.menu-button:active {
+    opacity: 0.8;
+}
+ 
+.explore-menu {
+    display: flex;
+    height: 40px;
+    width: 1400px;
+    align-items: center;
+    padding-left: 470px;
+
+}
+.explore-menu-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+

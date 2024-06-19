@@ -1,0 +1,45 @@
+.header {
+    background-color:white;
+    height: 44px;
+    display: flex;
+    grid-template-columns: 100px 100px 100px;
+    align-items: center;
+    position: fixed;
+    margin-top: 0px;
+   
+    top: 0px;
+    left: 0px;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(231, 230, 230);
+    border-bottom-style: solid;
+    z-index: 50;
+    
+}
+.right-section {
+    display: flex;
+    align-items: end;
+    margin-left: 830px;
+}
+
+.hamburger-menu-icon {
+    height: 25px;
+    width: 30px;
+    cursor: pointer;
+    
+}
+.hamburger-menu-icon:hover {
+    background-color: rgb(236, 227, 227);
+}
+.left-section {
+    display: flex;
+    margin-left: 50px;
+}
+.logo-icon {
+    height: 55px;
+    width: 150px;
+}
+
+     
+
+

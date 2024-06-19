@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+  <html>
+
+      <head>
+          <title>
+              Coin Toss
+          </title>
+      </head>
+
+    <body>
+        <button onclick= " 
+         coinFlip ();
+        ">
+            Coin Flip   
+        </button>
+
+         <p class="js-script"></p>
+
+    <script>
+          
+      function coinFlip(){
+          let randomMove = Math.random();
+
+          if(randomMove >=0 && randomMove <1/2 )
+          {
+             result = 'Tail';
+          } else
+           { result = 'Head'}
+          
+         
+          document.querySelector('.js-script')
+          .innerHTML =  result;
+          return result;
+          return randomMove;
+
+        }
+   
+    </script
+    
+    
+  </body>
+
+ </html>
+
+ 
+
+ 

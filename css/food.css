@@ -1,0 +1,173 @@
+.first-image {
+    
+    height: 350px;
+    margin-left: 60px;
+    margin-top: 30px;
+    border-radius: 500px;
+
+
+}
+.intro {
+    margin-top: 75px;
+    margin-left: 0px;
+    
+  
+
+}
+
+.offer-button  {
+    background-color: rgb(51, 203, 51);
+    border: none;
+    color: white;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 10px;
+   padding-right: 10px;
+   transition: 0.15s;
+    
+}
+.offer-button:hover {
+    background-color: rgb(43, 189, 43);
+}
+.enjoy-p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 40px;
+  width: 300px;
+  
+}
+.x-line {
+    margin-top: 05px;
+    color: rgb(121, 121, 121);
+    width: 400px;
+}
+.explore-now-button {
+    margin-top: 15px;
+    background-color: rgb(236, 210, 80) ; 
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-family: Roboto,arial;
+    border: none;
+    padding-left:10px ;
+    padding-right:10px ;
+    padding-top: 6px ;
+    padding-bottom:6px ;
+    cursor: pointer;
+    transition: 0.15s;
+
+}
+.explore-now-button:hover {
+    background-color: rgb(226, 226, 47);
+}
+.explore-now-button:active {
+    opacity: 0.8;
+}
+
+.food-list {
+    display: grid;
+   height: 1000px;
+   margin-left: 60px;
+   width: 1000px;
+   grid-template-columns: 480px 304px 210px ;
+   margin-top: 20px;
+   
+  
+}
+ 
+
+.food-1 {
+    width: 480px;
+    height: 550px;
+    border-radius: 10px;
+
+}
+
+.food-2 {
+    width: 290px;
+    height: 550px;
+    margin-left: 7px;
+    border-radius: 10px;
+}
+
+
+.food-3 {
+    width: 204px;
+    height: 240px;
+    border-radius: 10px;
+    transition: 5 ease-in-out;
+    
+}
+.food-4 {
+    width: 237px;
+    height: 240px;
+    border-radius: 10px;
+    
+        }
+
+.food-5 {
+    width: 236px;
+    height: 240px;
+    border-radius: 10px;
+    margin-left: 4px;
+    
+}
+.food-6 {
+    height: 240px;
+    width: 290px;
+    border-radius: 10px;
+     
+}
+.food-7{
+    
+    width: 204px;
+    height: 555px;
+     border-radius: 10px;
+padding-top: 1px;
+   
+}
+.food-1:hover {
+    transform:scale(1.02);
+    transition: 0.2 ease-in-out;
+}
+
+.food-2:hover {
+    transform:scale(1.03);
+    transition: 0.2 ease-in-out;
+}
+
+
+.food-3:hover {
+    transform:scale(1.03);
+    transition: 0.2 ease-in-out;
+}
+
+
+
+.food-4:hover {
+    transform:scale(1.03);
+    transition: 0.2 ease-in-out;
+}
+
+.food-5:hover {
+    transform:scale(1.03);
+    transition: 0.2 ease-in-out;
+}
+
+.food-6:hover {
+    transform:scale(1.03);
+    transition: 0.2 ease-in-out;
+}
+
+
+.food-7:hover {
+    transform:scale(1.03);
+    transition: 0.2 ease-in-out;
+}
+
+
+
+
+
+
+
+
