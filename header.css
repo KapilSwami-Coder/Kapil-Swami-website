@@ -1,0 +1,54 @@
+
+ 
+.header {
+    background-color:  white;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-top: 0px;
+    text-align: justify;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(39, 39, 39);
+    border-bottom-style: solid;
+    z-index: 50;
+    
+}
+.slogan {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px;
+}
+.header-text {
+       
+    font-family: none ;
+     font-size: 28px;
+     color: rgb(48, 165, 13);
+     font-weight: 700;
+     padding: 6px;
+      
+      
+    }
+
+.left-hr,.right-hr {
+   height: 44px;
+   border-radius: 20px;
+  
+}
+
+ .left-hr {
+     margin-left: 150px;
+ }
+
+ .right-hr {
+margin-right:100px ;
+ }
+
+
+
+
+
+
